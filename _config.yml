@@ -90,8 +90,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Security Research & Insights # blog_name will be displayed in your blog page
+blog_description: Cybersecurity tutorials, threat analysis, and security research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -102,6 +102,25 @@ pagination:
 related_blog_posts:
   enabled: true
   max_related: 5
+
+# Display tags - these appear as filters at top of blog page
+display_tags:
+  - penetration-testing
+  - threat-intelligence
+  - malware-analysis
+  - web-security
+  - cryptography
+  - cloud-security
+  - incident-response
+  - zero-day
+  - vulnerability-management
+  - network-security
+
+# Display categories - these appear as filters at top of blog page  
+display_categories:
+  - security
+  - programming
+  - professional
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
