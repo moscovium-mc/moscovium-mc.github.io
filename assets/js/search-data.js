@@ -521,6 +521,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/we/";
+            },},{id: "books-this-is-how-they-tell-me-the-world-ends",
+          title: 'This Is How They Tell Me the World Ends',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/this_is_how_they_tell_me_the_world_ends/";
             },},{id: "news-excited-to-announce-the-launch-of-my-new-security-focused-github-pages-site-after-years-of-cybersecurity-work-and-development-i-m-bringing-all-my-projects-research-and-tools-together-in-one-centralized-location-this-platform-will-serve-as-a-hub-for-sharing-security-insights-open-source-tools-and-technical-documentation",
           title: 'Excited to announce the launch of my new security-focused GitHub Pages site! After...',
           description: "",
