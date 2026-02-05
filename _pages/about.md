@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a Full Stack Developer and Security Researcher with over 13 years of hands-on experience spanning modern web development, offensive security, and independent security research. My work sits at the intersection of building scalable, production-ready applications and developing practical tools for penetration testing, OSINT, and security automation.
+I’m a Full Stack Developer and Security Researcher with over 10 years of hands-on experience spanning modern web development, offensive security, and independent security research. My work sits at the intersection of building scalable, production-ready applications and developing practical tools for penetration testing, OSINT, and security automation.
 
 On the web development side, I specialize in designing and implementing end-to-end applications, from responsive front-end interfaces to robust back-end services. I’m proficient in React, Next.js, Node.js, JavaScript, TypeScript, HTML5, CSS, and Tailwind CSS, with experience deploying and maintaining applications on platforms such as Netlify and Vercel. I prioritize clean architecture, maintainable codebases, and developer-friendly workflows.
 
