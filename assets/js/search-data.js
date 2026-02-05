@@ -451,11 +451,66 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-1984",
+      },{id: "books-kingpin-how-one-hacker-took-over-the-billion-dollar-cybercrime-underground",
+          title: 'Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/kingpin/";
+            },},{id: "books-1984",
           title: '1984',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/1984/";
+            },},{id: "books-american-kingpin",
+          title: 'American Kingpin',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/american_kingpin/";
+            },},{id: "books-brave-new-world",
+          title: 'Brave New World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/brave_new_world/";
+            },},{id: "books-cryptonomicon",
+          title: 'Cryptonomicon',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cryptonomicon/";
+            },},{id: "books-fahrenheit-451",
+          title: 'Fahrenheit 451',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/fahrenheit_451/";
+            },},{id: "books-ghost-in-the-wires",
+          title: 'Ghost in the Wires',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ghost_in_the_wires/";
+            },},{id: "books-hackers",
+          title: 'Hackers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hackers/";
+            },},{id: "books-neuromancer",
+          title: 'Neuromancer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/neuromancer/";
+            },},{id: "books-permanent-record",
+          title: 'Permanent Record',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/permanent_record/";
+            },},{id: "books-snow-crash",
+          title: 'Snow Crash',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/snow_crash/";
+            },},{id: "books-the-cuckoo-39-s-egg",
+          title: 'The Cuckoo&amp;#39;s Egg',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_cuckoos_egg/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
