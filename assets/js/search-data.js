@@ -456,6 +456,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-excited-to-announce-the-launch-of-my-new-security-focused-github-pages-site-after-years-of-cybersecurity-work-and-development-i-m-bringing-all-my-projects-research-and-tools-together-in-one-centralized-location-this-platform-will-serve-as-a-hub-for-sharing-security-insights-open-source-tools-and-technical-documentation",
+          title: 'Excited to announce the launch of my new security-focused GitHub Pages site! After...',
+          description: "",
+          section: "News",},{id: "news-proud-to-announce-the-beginning-of-arachnids-ng-development-continuing-the-legacy-of-the-original-arachnids-project-started-in-the-early-2000s-with-over-20-years-of-cybersecurity-and-evolution-in-network-intrusion-detection-arachnids-ng-represents-the-next-generation-of-intelligent-threat-detection-systems-designed-for-modern-security-operations",
+          title: 'Proud to announce the beginning of arachNIDS-NG development, continuing the legacy of the...',
+          description: "",
+          section: "News",},{id: "news-msr206-software-interface-development",
+          title: 'MSR206 Software Interface Development',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-01-10-msr206-interface-development/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
