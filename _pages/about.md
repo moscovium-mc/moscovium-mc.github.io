@@ -9,9 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Discord: @.whitehats</p>
+    <p>Session (encrypted) 053dec1c315e8a58861fb4392e8a8d835692435ce30e2d3a707250f2aec1089e31</p>
+    <p>Email: pub.inbox@proton.me</p>
+    <p>PGP fingerprint: B4A9DE7B3C6906073BB762433769BA40D2B42109</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
