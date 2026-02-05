@@ -511,6 +511,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_cuckoos_egg/";
+            },},{id: "books-the-code-book",
+          title: 'The Code Book',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_code_book/";
             },},{id: "books-we",
           title: 'We',
           description: "",
