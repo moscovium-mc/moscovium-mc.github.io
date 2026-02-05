@@ -1,14 +1,15 @@
-github_users:
-  - torvalds
-  - alshedivat
+# GitHub profile
+github_users: [moscovium-mc]
 
 repo_description_lines_max: 2
 
+# GitHub repositories to display
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - moscovium-mc/CloudRip
+  - moscovium-mc/BreachPeek
+  - moscovium-mc/Tor-0day-JavaScript-Exploit
+  - moscovium-mc/cheat-sheets
+  - moscovium-mc/blitz
+  - moscovium-mc/Tor-hidden-service
+  - moscovium-mc/arachNIDS-NG
+  - moscovium-mc/GitHub-Exploit-Tracker
