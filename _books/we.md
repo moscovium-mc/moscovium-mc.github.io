@@ -7,7 +7,7 @@ olid: OL7353112M
 isbn: 0140186531
 categories: classics dystopian science-fiction fiction russian-literature
 tags: dystopian-classic foundational
-buy_link: https://www.amazon.com/We-Yevgeny-Zamyatin/dp/0140186531
+buy_link: https://www.amazon.com/We-Yevgeny-Zamyatin/dp/0380633132
 date: 2024-10-15
 started: 2024-10-15
 finished: 2024-10-22
