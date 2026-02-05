@@ -451,7 +451,12 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-1984",
+      },{id: "books-kingpin-how-one-hacker-took-over-the-billion-dollar-cybercrime-underground",
+          title: 'Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/kingpin/";
+            },},{id: "books-1984",
           title: '1984',
           description: "",
           section: "Books",handler: () => {
