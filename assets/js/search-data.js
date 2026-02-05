@@ -511,6 +511,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_cuckoos_egg/";
+            },},{id: "books-we",
+          title: 'We',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/we/";
             },},{id: "news-excited-to-announce-the-launch-of-my-new-security-focused-github-pages-site-after-years-of-cybersecurity-work-and-development-i-m-bringing-all-my-projects-research-and-tools-together-in-one-centralized-location-this-platform-will-serve-as-a-hub-for-sharing-security-insights-open-source-tools-and-technical-documentation",
           title: 'Excited to announce the launch of my new security-focused GitHub Pages site! After...',
           description: "",
