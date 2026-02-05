@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Discord: @.whitehats</p>
     <p>Email: pub.inbox@proton.me</p>
     <p>PGP: B4A9DE7B3C6906073BB762433769BA40D2B42109</p>
 
