@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Discord: @.whitehats</p>
-    <p>Session (encrypted) 053dec1c315e8a58861fb4392e8a8d835692435ce30e2d3a707250f2aec1089e31</p>
     <p>Email: pub.inbox@proton.me</p>
     <p>PGP fingerprint: B4A9DE7B3C6906073BB762433769BA40D2B42109</p>
 
