@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://github.com/arachNIDS-NG'>Affiliations</a>. arachNIDS-NG
 
 profile:
   align: right
