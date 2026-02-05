@@ -187,6 +187,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/chartjs/";
           
         },
+      },{id: "post-cloud-storage-enumeration-techniques",
+        
+          title: "Cloud Storage Enumeration Techniques",
+        
+        description: "Methods for discovering exposed cloud storage buckets and securing your data",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/cloud-storage-enumeration-techniques/";
+          
+        },
       },{id: "post-a-post-with-tikzjax",
         
           title: "a post with TikZJax",
@@ -394,17 +405,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
