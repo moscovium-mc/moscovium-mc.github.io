@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a Full Stack Developer and Security Researcher with over 13 years of hands-on experience spanning modern web development, offensive security, and independent security research. My work sits at the intersection of building scalable, production-ready applications and developing practical tools for penetration testing, OSINT, and security automation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+On the web development side, I specialize in designing and implementing end-to-end applications, from responsive front-end interfaces to robust back-end services. I’m proficient in React, Next.js, Node.js, JavaScript, TypeScript, HTML5, CSS, and Tailwind CSS, with experience deploying and maintaining applications on platforms such as Netlify and Vercel. I prioritize clean architecture, maintainable codebases, and developer-friendly workflows.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In security research, my focus is on offensive security and tool development. I primarily work with Python and Bash to create penetration testing utilities, OSINT reconnaissance tools, and automated security assessment frameworks. My work includes credential exposure analysis, Cloudflare and WAF reconnaissance, vulnerability research, and building scalable tooling for real-world security assessments. I maintain and contribute to multiple open-source security tools and actively engage with the infosec community.
