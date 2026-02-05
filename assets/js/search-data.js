@@ -491,11 +491,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/hackers/";
-            },},{id: "books-",
-          title: '',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/influence/";
             },},{id: "books-neuromancer",
           title: 'Neuromancer',
           description: "",
