@@ -110,7 +110,7 @@ ninja.data = [{
         
           title: "Blockchain Security Fundamentals",
         
-        description: "Understanding security considerations in blockchain and cryptocurrency systems",
+        description: "Understanding the unique security challenges and considerations in blockchain and cryptocurrency systems",
         section: "Posts",
         handler: () => {
           
