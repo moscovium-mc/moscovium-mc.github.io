@@ -216,11 +216,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/api-security-best-practices/";
           
         },
-      },{id: "post-incident-response-methodology",
+      },{id: "post-incident-response-methodology-and-best-practices",
         
-          title: "Incident Response Methodology",
+          title: "Incident Response Methodology and Best Practices",
         
-        description: "Structured approach to handling security incidents effectively",
+        description: "How organizations prepare for, respond to, and learn from security incidents",
         section: "Posts",
         handler: () => {
           
