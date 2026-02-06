@@ -62,6 +62,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/understanding-zero-day-vulnerabilities/";
           
         },
+      },{id: "post-the-future-of-cybersecurity",
+        
+          title: "The Future of Cybersecurity",
+        
+        description: "Emerging technologies, evolving threats, and paradigm shifts shaping cybersecurity&#39;s future",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/future-of-cybersecurity/";
+          
+        },
       },{id: "post-security-career-development",
         
           title: "Security Career Development",
@@ -71,17 +82,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/security-career-development/";
-          
-        },
-      },{id: "post-future-of-cybersecurity",
-        
-          title: "Future of Cybersecurity",
-        
-        description: "Emerging trends and technologies shaping the future of security",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/future-of-cybersecurity/";
           
         },
       },{id: "post-security-compliance-frameworks",
