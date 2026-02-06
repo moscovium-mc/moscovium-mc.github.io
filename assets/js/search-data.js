@@ -546,9 +546,9 @@ ninja.data = [{
               window.location.href = "/news/2026-01-10-msr206-interface-development/";
             },},{id: "teachings-def-con-34",
           title: 'DEF CON 34',
-          description: "The world&#39;s largest hacker conference",
+          description: "The world&#39;s largest and most infamous hacker conference. Four days of hacking, learning, and chaos in Las Vegas featuring cutting-edge security research, hands-on workshops, villages, contests, and networking.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/defcon_2026/";
+              window.location.href = "/teachings/defcon_34/";
             },},{
         id: 'social-email',
         title: 'email',
