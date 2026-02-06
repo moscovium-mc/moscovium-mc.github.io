@@ -569,6 +569,11 @@ ninja.data = [{
           description: "The premier conference for security and risk management leaders, bringing together CISOs, security executives, and IT decision-makers to gain actionable insights, connect with solution providers, and turn Gartner research into strategic advantage.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/gartner-security-risk-management-2026/";
+            },},{id: "teachings-",
+          title: '',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/infosec-world-2026/";
             },},{id: "teachings-rsa-conference-2026",
           title: 'RSA Conference 2026',
           description: "The world&#39;s leading cybersecurity conference and exposition, bringing together industry leaders, security professionals, and technology innovators for four days of education, networking, and industry insights.",
