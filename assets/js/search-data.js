@@ -132,7 +132,7 @@ ninja.data = [{
         
           title: "Security Orchestration, Automation, and Response (SOAR)",
         
-        description: "Automating security operations to improve efficiency and effectiveness",
+        description: "How SOAR platforms transform security operations through intelligent automation and orchestration",
         section: "Posts",
         handler: () => {
           
