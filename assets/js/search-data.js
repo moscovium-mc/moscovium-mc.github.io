@@ -574,9 +574,9 @@ ninja.data = [{
           description: "The premier conference for security and risk management leaders, bringing together CISOs, security executives, and IT decision-makers to gain actionable insights, connect with solution providers, and turn Gartner research into strategic advantage.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/gartner-security-risk-management-2026/";
-            },},{id: "teachings-",
-          title: '',
-          description: "",
+            },},{id: "teachings-infosec-world-2026",
+          title: 'InfoSec World 2026',
+          description: "The 32nd annual InfoSec World conference brings together security professionals to navigate the evolving cyber landscape. With the theme &quot;The Cyber Continuum: From Acceleration to Adaptation,&quot; this premier event addresses the AI revolution, emerging threats, regulatory pressures, and the need for radical reinvention in cybersecurity.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/infosec-world-2026/";
             },},{id: "teachings-rsa-conference-2026",
