@@ -330,11 +330,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/web-application-security-fundamentals/";
           
         },
-      },{id: "post-python-scripting-for-security-automation",
+      },{id: "post-python-for-security-automation-and-tool-development",
         
-          title: "Python Scripting for Security Automation",
+          title: "Python for Security Automation and Tool Development",
         
-        description: "Leveraging Python for efficient security tasks and tool development",
+        description: "How Python has become essential for security professionals automating tasks and building custom tools",
         section: "Posts",
         handler: () => {
           
