@@ -99,7 +99,7 @@ ninja.data = [{
         
           title: "IoT Security Challenges",
         
-        description: "Securing the expanding Internet of Things ecosystem",
+        description: "Addressing the unique security challenges of billions of connected devices in the Internet of Things",
         section: "Posts",
         handler: () => {
           
