@@ -44,11 +44,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-understanding-zero-day-vulnerabilities",
+            },{id: "post-understanding-zero-day-vulnerabilities-and-their-security-impact",
         
-          title: "Understanding Zero-Day Vulnerabilities",
+          title: "Understanding Zero-Day Vulnerabilities and Their Security Impact",
         
-        description: "The lifecycle of unknown vulnerabilities and their impact on security",
+        description: "How zero-day vulnerabilities are discovered, exploited, and defended against in modern cybersecurity",
         section: "Posts",
         handler: () => {
           
