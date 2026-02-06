@@ -363,11 +363,11 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-github-exploit-tracking-and-analysis",
+      },{id: "post-tracking-public-exploit-research-for-proactive-defense",
         
-          title: "GitHub Exploit Tracking and Analysis",
+          title: "Tracking Public Exploit Research for Proactive Defense",
         
-        description: "Monitoring public exploit repositories and threat intelligence",
+        description: "How security teams leverage public vulnerability disclosures and exploit repositories to strengthen defenses",
         section: "Posts",
         handler: () => {
           
