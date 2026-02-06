@@ -551,6 +551,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-10-msr206-interface-development/";
+            },},{id: "teachings-def-con-34",
+          title: 'DEF CON 34',
+          description: "The world&#39;s largest and most notable hacker conference. DEF CON 34 brings together security researchers, penetration testers, hardware hackers, and privacy advocates for four days of talks, workshops, villages, contests, and community collaboration.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/def-con-34/";
             },},{
         id: 'social-email',
         title: 'email',
