@@ -341,11 +341,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/python-scripting-for-security-automation/";
           
         },
-      },{id: "post-security-cheat-sheets-for-quick-reference",
+      },{id: "post-building-effective-security-reference-materials",
         
-          title: "Security Cheat Sheets for Quick Reference",
+          title: "Building Effective Security Reference Materials",
         
-        description: "Essential commands and techniques for security professionals",
+        description: "How security professionals create and maintain cheat sheets for efficient operations",
         section: "Posts",
         handler: () => {
           
