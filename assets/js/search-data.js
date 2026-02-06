@@ -554,6 +554,11 @@ ninja.data = [{
           description: "The world&#39;s largest and most notable hacker conference. DEF CON 34 brings together security researchers, penetration testers, hardware hackers, and privacy advocates for four days of talks, workshops, villages, contests, and community collaboration.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/def-con-34/";
+            },},{id: "teachings-rsa-conference-2026",
+          title: 'RSA Conference 2026',
+          description: "The world&#39;s leading cybersecurity conference and exposition, bringing together industry leaders, security professionals, and technology innovators for four days of education, networking, and industry insights.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/rsa-conference-2026/";
             },},{
         id: 'social-email',
         title: 'email',
