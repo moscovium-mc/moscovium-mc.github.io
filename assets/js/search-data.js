@@ -209,7 +209,7 @@ ninja.data = [{
         
           title: "API Security Best Practices",
         
-        description: "Securing application programming interfaces against common threats",
+        description: "How to secure application programming interfaces against evolving threats",
         section: "Posts",
         handler: () => {
           
