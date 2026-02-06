@@ -121,7 +121,7 @@ ninja.data = [{
         
           title: "DevSecOps Integration",
         
-        description: "Embedding security throughout the software development lifecycle",
+        description: "Embedding security throughout the software development lifecycle for continuous protection",
         section: "Posts",
         handler: () => {
           
