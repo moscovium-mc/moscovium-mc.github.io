@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-events",
           title: "events",
-          description: "Upcoming conferences, workshops, and security events I&#39;ll be attending or speaking at.",
+          description: "Upcoming conferences, workshops, and security events.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/events/";
