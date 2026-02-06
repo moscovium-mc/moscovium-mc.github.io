@@ -308,11 +308,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/social-engineering-and-human-factors/";
           
         },
-      },{id: "post-cryptography-basics-for-security-professionals",
+      },{id: "post-cryptography-fundamentals-for-security-professionals",
         
-          title: "Cryptography Basics for Security Professionals",
+          title: "Cryptography Fundamentals for Security Professionals",
         
-        description: "Essential cryptographic concepts and their security applications",
+        description: "Understanding the cryptographic principles and algorithms that underpin modern information security",
         section: "Posts",
         handler: () => {
           
