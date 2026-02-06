@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-donate",
-          title: "donate",
+        },{id: "nav-support",
+          title: "support",
           description: "",
           section: "Navigation",
           handler: () => {
