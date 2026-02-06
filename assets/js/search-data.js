@@ -569,11 +569,6 @@ ninja.data = [{
           description: "The world&#39;s leading cybersecurity conference and exposition. RSA Conference attracts over 40,000 attendees including CISOs, security practitioners, vendors, and media with its massive expo floor and comprehensive agenda.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/rsa_conference_2026/";
-            },},{id: "teachings-shmoocon-2026",
-          title: 'ShmooCon 2026',
-          description: "East Coast hacker conference focused on community and technical depth. ShmooCon is known for its intimate atmosphere, technical depth, and strong sense of community, attracting hackers from across the East Coast and beyond.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/shmoocon_2026/";
             },},{
         id: 'social-email',
         title: 'email',
