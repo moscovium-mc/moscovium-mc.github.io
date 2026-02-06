@@ -396,11 +396,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/setting-up-tor-hidden-services/";
           
         },
-      },{id: "post-javascript-exploits-in-tor-browser",
+      },{id: "post-browser-security-and-vulnerability-research-ethics",
         
-          title: "JavaScript Exploits in Tor Browser",
+          title: "Browser Security and Vulnerability Research Ethics",
         
-        description: "Understanding browser vulnerabilities and security research",
+        description: "Understanding browser security mechanisms, common vulnerability classes, and the principles of responsible disclosure",
         section: "Posts",
         handler: () => {
           
