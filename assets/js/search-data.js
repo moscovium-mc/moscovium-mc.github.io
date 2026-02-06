@@ -275,7 +275,7 @@ ninja.data = [{
         
           title: "Malware Analysis Fundamentals",
         
-        description: "Techniques for examining malicious software safely and effectively",
+        description: "Understanding how to safely examine malicious software and extract actionable intelligence",
         section: "Posts",
         handler: () => {
           
