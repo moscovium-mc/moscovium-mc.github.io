@@ -297,11 +297,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/linux-privilege-escalation-techniques/";
           
         },
-      },{id: "post-social-engineering-and-human-factors",
+      },{id: "post-social-engineering-and-the-human-element-in-security",
         
-          title: "Social Engineering and Human Factors",
+          title: "Social Engineering and the Human Element in Security",
         
-        description: "Understanding psychological manipulation in cybersecurity",
+        description: "How attackers exploit human psychology and what organizations can do to build resilience against manipulation",
         section: "Posts",
         handler: () => {
           
