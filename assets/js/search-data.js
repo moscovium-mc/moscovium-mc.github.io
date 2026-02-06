@@ -62,6 +62,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/understanding-zero-day-vulnerabilities/";
           
         },
+      },{id: "post-the-evolution-of-cybercrime-and-underground-markets",
+        
+          title: "The Evolution of Cybercrime and Underground Markets",
+        
+        description: "How hacking evolved from exploration to profit-driven criminal enterprise through carding forums, data breaches, and ransomware",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/the-evolution-of-cybercrime-and-underground-markets/";
+          
+        },
       },{id: "post-the-future-of-cybersecurity",
         
           title: "The Future of Cybersecurity",
@@ -71,17 +82,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/future-of-cybersecurity/";
-          
-        },
-      },{id: "post-security-career-development",
-        
-          title: "Security Career Development",
-        
-        description: "Building and advancing a career in cybersecurity",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/security-career-development/";
           
         },
       },{id: "post-security-compliance-frameworks",
