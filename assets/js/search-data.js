@@ -549,6 +549,11 @@ ninja.data = [{
           description: "The premier information security conference and training event, bringing together elite security researchers, industry leaders, and government agencies for cutting-edge briefings, hands-on training, and industry networking.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/blackhat-usa-2026/";
+            },},{id: "teachings-cybersecurity-and-privacy-professionals-conference-2026",
+          title: 'Cybersecurity and Privacy Professionals Conference 2026',
+          description: "The premier forum for connecting with higher education information security and privacy professionals. This event brings together peers and solution providers to discuss trends, challenges, and current issues in cybersecurity and privacy within the higher education sector.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/cybersecurity-privacy-professionals-2026/";
             },},{id: "teachings-def-con-34",
           title: 'DEF CON 34',
           description: "The world&#39;s largest and most notable hacker conference. DEF CON 34 brings together security researchers, penetration testers, hardware hackers, and privacy advocates for four days of talks, workshops, villages, contests, and community collaboration.",
