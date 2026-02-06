@@ -176,7 +176,7 @@ ninja.data = [{
         
           title: "Cloud Security Fundamentals",
         
-        description: "Essential security concepts for cloud computing environments",
+        description: "Understanding the shared responsibility model and essential security practices for cloud computing environments",
         section: "Posts",
         handler: () => {
           
