@@ -544,6 +544,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-10-msr206-interface-development/";
+            },},{id: "teachings-billington-cybersecurity-summit-2026",
+          title: 'Billington CyberSecurity Summit 2026',
+          description: "The 17th Annual Billington CyberSecurity Summit is the leading government cybersecurity conference, bringing together over 2,500 attendees and 200+ top speakers for more than 40 sessions focused on tackling cyber challenges in government and national security.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/billington-cybersecurity-summit-2026/";
             },},{id: "teachings-black-hat-usa-2026",
           title: 'Black Hat USA 2026',
           description: "The premier information security conference and training event, bringing together elite security researchers, industry leaders, and government agencies for cutting-edge briefings, hands-on training, and industry networking.",
