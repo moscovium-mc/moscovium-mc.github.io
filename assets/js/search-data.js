@@ -264,7 +264,7 @@ ninja.data = [{
         
           title: "Threat Intelligence Fundamentals",
         
-        description: "Collecting and using information about potential security threats",
+        description: "How organizations collect, analyze, and operationalize threat intelligence to improve security postures",
         section: "Posts",
         handler: () => {
           
