@@ -374,11 +374,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/github-exploit-tracking-and-analysis/";
           
         },
-      },{id: "post-network-intrusion-detection-with-arachnids-ng",
+      },{id: "post-network-intrusion-detection-systems-and-threat-monitoring",
         
-          title: "Network Intrusion Detection with arachNIDS-NG",
+          title: "Network Intrusion Detection Systems and Threat Monitoring",
         
-        description: "Building effective network monitoring and threat detection systems",
+        description: "Understanding how network intrusion detection systems work and best practices for implementation",
         section: "Posts",
         handler: () => {
           
