@@ -16,8 +16,6 @@ schedule:
     materials:
       - name: RSA Conference Website
         url: https://www.rsaconference.com/usa
-      - name: Expo Floor Map
-        url: https://www.rsaconference.com/usa/expo-floor-plan
 
   - week: 2
     date: May 5
@@ -25,9 +23,7 @@ schedule:
     description: Keynotes, track sessions, networking events, vendor meetings.
     materials:
       - name: Session Catalog
-        url: https://www.rsaconference.com/usa/agenda
-      - name: Speaker Directory
-        url: https://www.rsaconference.com/usa/speakers
+        url: https://www.rsaconference.com
 
   - week: 3
     date: May 6
@@ -35,9 +31,7 @@ schedule:
     description: Technical deep-dives, panel discussions, product demos.
     materials:
       - name: RSAC Early Stage Expo
-        url: https://www.rsaconference.com/usa/early-stage
-      - name: Innovation Sandbox
-        url: https://www.rsaconference.com/usa/innovation-sandbox
+        url: https://www.rsaconference.com
 
   - week: 4
     date: May 7-8
@@ -45,9 +39,7 @@ schedule:
     description: Final sessions, closing keynote, expo floor closes, farewell events.
     materials:
       - name: OnDemand Library
-        url: https://www.rsaconference.com/usa/ondemand
-      - name: RSAC 365
-        url: https://www.rsaconference.com/usa/rsac-365
+        url: https://www.rsaconference.com
 ---
 
 ## Conference Overview
