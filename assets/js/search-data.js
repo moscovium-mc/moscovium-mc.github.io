@@ -51,12 +51,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-donate",
+              title: "donate",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/donate/";
               },
             },{id: "post-understanding-zero-day-vulnerabilities-and-their-security-impact",
         
