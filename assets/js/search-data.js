@@ -418,11 +418,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/tor-browser-security-and-privacy/";
           
         },
-      },{id: "post-analyzing-data-breaches-with-breachpeek",
+      },{id: "post-understanding-data-breach-analysis-and-digital-security",
         
-          title: "Analyzing Data Breaches with BreachPeek",
+          title: "Understanding Data Breach Analysis and Digital Security",
         
-        description: "Understanding breach patterns and protecting your digital footprint",
+        description: "How breach analysis tools help organizations and individuals strengthen their security posture",
         section: "Posts",
         handler: () => {
           
