@@ -564,6 +564,11 @@ ninja.data = [{
           description: "East Coast hacker conference focused on community and technical depth. ShmooCon is known for its intimate atmosphere, technical depth, and strong sense of community, attracting hackers from across the East Coast and beyond.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/shmoocon_2026/";
+            },},{id: "teachings-thotcon-13",
+          title: 'THOTCON 13',
+          description: "Chicago&#39;s premier hacker conference. THOTCON (The Hacker On The Other THOTCON) is known for its high-quality talks, unique badge design, and vibrant community. Now in its 13th year, it&#39;s one of the Midwest&#39;s must-attend security events.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/thotcon_13/";
             },},{
         id: 'social-email',
         title: 'email',
