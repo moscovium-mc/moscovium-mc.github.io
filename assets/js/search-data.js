@@ -249,11 +249,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/digital-forensics-basics/";
           
         },
-      },{id: "post-secure-coding-practices",
+      },{id: "post-secure-coding-practices-for-modern-software-development",
         
-          title: "Secure Coding Practices",
+          title: "Secure Coding Practices for Modern Software Development",
         
-        description: "Writing code that resists exploitation and maintains security",
+        description: "How developers can write more secure code and integrate security throughout the software development lifecycle",
         section: "Posts",
         handler: () => {
           
