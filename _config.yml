@@ -4,8 +4,8 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: moscovium-mc
-middle_name: 
-last_name: 
+middle_name: security
+last_name: blog
 contact_note: >
   One man can make a difference.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
