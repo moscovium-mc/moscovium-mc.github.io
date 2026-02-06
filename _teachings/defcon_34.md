@@ -16,6 +16,8 @@ schedule:
     materials:
       - name: DEF CON Website
         url: https://www.defcon.org
+      - name: Floor Plan
+        url: https://www.defcon.org
 
   - week: 2
     date: Aug 8
@@ -24,7 +26,9 @@ schedule:
     materials:
       - name: Talk Schedule
         url: https://www.defcon.org
-        
+      - name: Call for Papers
+        url: https://defcon.org
+
   - week: 3
     date: Aug 9
     topic: Main Conference Day 2
