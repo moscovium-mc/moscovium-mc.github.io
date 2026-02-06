@@ -88,7 +88,7 @@ ninja.data = [{
         
           title: "Security Compliance Frameworks",
         
-        description: "Understanding major security standards and regulatory requirements",
+        description: "Navigating major security standards and regulatory requirements across industries and jurisdictions",
         section: "Posts",
         handler: () => {
           
