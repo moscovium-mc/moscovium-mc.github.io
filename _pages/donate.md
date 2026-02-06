@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Support My Work
+title: donate
 permalink: /donate/
 nav: true
 nav_order: 6
