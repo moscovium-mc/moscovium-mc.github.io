@@ -554,21 +554,11 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/bsides_lv_2026/";
-            },},{id: "teachings-security-bsides-san-francisco-2026",
-          title: 'Security BSides San Francisco 2026',
-          description: "Bay Area&#39;s community security conference. BSides SF brings the BSides community spirit to the heart of the Bay Area tech scene with technical content, networking, and community building.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/bsides_sf_2026/";
             },},{id: "teachings-def-con-34",
           title: 'DEF CON 34',
           description: "The world&#39;s largest and most infamous hacker conference. Four days of hacking, learning, and chaos in Las Vegas featuring cutting-edge security research, hands-on workshops, villages, contests, and networking.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/defcon_34/";
-            },},{id: "teachings-rsa-conference-2026",
-          title: 'RSA Conference 2026',
-          description: "The world&#39;s leading cybersecurity conference and exposition. RSA Conference attracts over 40,000 attendees including CISOs, security practitioners, vendors, and media with its massive expo floor and comprehensive agenda.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/rsa_conference_2026/";
             },},{
         id: 'social-email',
         title: 'email',
