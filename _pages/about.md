@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-GitHub: [moscovium-mc](https://github.com/moscovium-mc)  
-Email: [pub.inbox@proton.me](mailto:pub.inbox@proton.me)
+    <p>Email: pub.inbox@proton.me</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
