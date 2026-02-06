@@ -139,11 +139,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/security-orchestration-automation-and-response-soar/";
           
         },
-      },{id: "post-vulnerability-management",
+      },{id: "post-vulnerability-management-in-modern-organizations",
         
-          title: "Vulnerability Management",
+          title: "Vulnerability Management in Modern Organizations",
         
-        description: "Systematic approach to identifying, assessing, and remediating security vulnerabilities",
+        description: "Building systematic approaches to discovering, prioritizing, and remediating security vulnerabilities at scale",
         section: "Posts",
         handler: () => {
           
