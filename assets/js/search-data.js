@@ -323,7 +323,7 @@ ninja.data = [{
         
           title: "Web Application Security Fundamentals",
         
-        description: "Core concepts and common vulnerabilities in web applications",
+        description: "Understanding core security concepts and common vulnerabilities that affect modern web applications",
         section: "Posts",
         handler: () => {
           
