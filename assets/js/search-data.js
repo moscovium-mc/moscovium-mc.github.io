@@ -407,11 +407,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/javascript-exploits-in-tor-browser/";
           
         },
-      },{id: "post-tor-browser-security-and-privacy",
+      },{id: "post-understanding-tor-browser-and-online-anonymity",
         
-          title: "Tor Browser Security and Privacy",
+          title: "Understanding Tor Browser and Online Anonymity",
         
-        description: "Exploring Tor&#39;s anonymity network and browser security considerations",
+        description: "How Tor provides privacy and anonymity online, and best practices for secure usage",
         section: "Posts",
         handler: () => {
           
