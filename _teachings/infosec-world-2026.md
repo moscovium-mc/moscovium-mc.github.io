@@ -17,7 +17,7 @@ schedule:
       - name: Official Website
         url: https://www.infosecworldusa.com/
       - name: Registration Portal
-        url: https://events.infosecworldusa.com/2026/begin
+        url: https://www.infosecworldusa.com/register
 
   - week: 2
     date: Oct 12
@@ -25,9 +25,9 @@ schedule:
     description: Opening keynote sessions, first day of breakout tracks across eight core imperatives, Expo Hall opens, and evening networking receptions.
     materials:
       - name: Agenda & Sessions
-        url: https://www.infosecworldusa.com/isw25/agenda/
-      - name: Presentations
-        url: https://www.infosecworldusa.com/isw25/attending-companies/
+        url: https://www.infosecworldusa.com/agenda
+      - name: Call for Presentations
+        url: https://www.infosecworldusa.com/call-for-presentations
 
   - week: 3
     date: Oct 13
@@ -35,19 +35,19 @@ schedule:
     description: Executive sessions, specialized summits (AI Summit, CISO Summit, Women in Cyber Summit), panel discussions, and advanced technical workshops.
     materials:
       - name: Speakers Directory
-        url: https://www.infosecworldusa.com/isw25/speakers/
+        url: https://www.infosecworldusa.com/speakers
       - name: Sponsors & Partners
-        url: https://www.infosecworldusa.com/isw25/partners/
+        url: https://www.infosecworldusa.com/sponsors
 
   - week: 4
     date: Oct 14
     topic: Final Day & Closing
     description: Final keynotes, closing sessions, last chance for Expo Hall visits, awards ceremony, and strategic planning workshops.
     materials:
-      - name: Event Information & Pricing
-        url: https://www.infosecworldusa.com/isw25/pricing/
-      - name: FAQ
-        url: https://www.infosecworldusa.com/faq/
+      - name: Event Information
+        url: https://www.infosecworldusa.com/event-info
+      - name: Pricing & FAQ
+        url: https://www.infosecworldusa.com/pricing
 
   - week: 5
     date: Oct 15
@@ -403,7 +403,7 @@ InfoSec World accepts speaker submissions through their Call for Presentations p
 - **Review Process**: Peer-reviewed selection committee
 - **Benefits**: Speaking slot, conference pass, recognition in program
 
-Submit proposals at: https://www.infosecworldusa.com/
+Submit proposals at: https://www.infosecworldusa.com/call-for-presentations
 
 ## Past Conference Highlights
 
@@ -432,21 +432,70 @@ Submit proposals at: https://www.infosecworldusa.com/
 ## Official Channels
 
 - **Website**: https://www.infosecworldusa.com/
-- **Registration**: https://events.infosecworldusa.com/2026/begin
-- **Agenda**: https://www.infosecworldusa.com/isw25/agenda/
-- **Speakers**: https://www.infosecworldusa.com/isw25/speakers/
-- **Sponsors**: https://www.infosecworldusa.com/isw25/sponsors/
-- **Contact**: customerservice@infosecworldusa.com
+- **Registration**: https://www.infosecworldusa.com/register
+- **Agenda**: https://www.infosecworldusa.com/agenda
+- **Speakers**: https://www.infosecworldusa.com/speakers
+- **Sponsors**: https://www.infosecworldusa.com/sponsors
+- **Contact**: https://www.infosecworldusa.com/contact
 
 ## Social Media
 
 Stay connected with InfoSec World updates:
 
-- **LinkedIn**: https://www.linkedin.com/showcase/10065119
-- **Twitter**: https://x.com/InfoSec_World
-- **Facebook**: https://www.facebook.com/InfoSecWorld
+- **LinkedIn**: InfoSec World
+- **Twitter**: @InfoSecWorld
+- **Facebook**: InfoSec World Conference
 
 Follow the hashtag **#InfoSecWorld2026** for real-time updates during the conference.
+
+## Sponsorship Opportunities
+
+InfoSec World offers various sponsorship levels for companies supporting the cybersecurity community:
+
+### Sponsorship Tiers
+- **Platinum Sponsor**: Premier branding and speaking opportunities
+- **Gold Sponsor**: Major visibility and networking access
+- **Silver Sponsor**: Significant presence and engagement opportunities
+- **Bronze Sponsor**: Entry-level sponsorship with branding benefits
+- **Exhibitor**: Booth space in the Expo Hall
+
+### Benefits Include
+- Brand visibility across conference materials
+- Speaking opportunities in sessions and workshops
+- Access to attendee list (with permission)
+- Expo Hall presence and demonstrations
+- Networking event participation
+- Recognition in conference program
+
+For sponsorship information, visit: https://www.infosecworldusa.com/sponsors
+
+## Contact Information
+
+For questions about the conference:
+- **General Inquiries**: info@infosecworldusa.com
+- **Registration Support**: registration@infosecworldusa.com
+- **Speaking Opportunities**: content@infosecworldusa.com
+- **Sponsorship**: sponsors@infosecworldusa.com
+- **Media/Press**: press@infosecworldusa.com
+
+## Additional Resources
+
+### CyberRisk Alliance
+InfoSec World is produced by CyberRisk Alliance, a leading cybersecurity media and events company. Explore their other resources:
+- **SC Media**: Cybersecurity news and analysis
+- **CyberRisk Alliance Events**: Additional conferences and webinars
+- **Research Reports**: Industry trends and market analysis
+- **Training Programs**: Professional development and certification
+
+### 2025 Trends Report
+Download the InfoSec World 2025 Trends Report for insights on:
+- Emerging threats and attack vectors
+- Technology adoption trends
+- Regulatory and compliance developments
+- Workforce and skills challenges
+- Strategic priorities for security leaders
+
+Available at: https://www.infosecworldusa.com/trends-report
 
 ## Health & Safety
 
