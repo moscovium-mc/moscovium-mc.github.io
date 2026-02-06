@@ -275,11 +275,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/malware-analysis-fundamentals/";
           
         },
-      },{id: "post-network-protocol-analysis",
+      },{id: "post-network-protocol-analysis-for-security-and-troubleshooting",
         
-          title: "Network Protocol Analysis",
+          title: "Network Protocol Analysis for Security and Troubleshooting",
         
-        description: "Examining network communications for security and troubleshooting",
+        description: "Understanding how to capture and analyze network traffic for security monitoring, incident response, and network diagnostics",
         section: "Posts",
         handler: () => {
           
