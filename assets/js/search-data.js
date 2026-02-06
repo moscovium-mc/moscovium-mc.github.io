@@ -429,11 +429,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/analyzing-data-breaches-with-breachpeek/";
           
         },
-      },{id: "post-cloud-storage-enumeration-techniques",
+      },{id: "post-understanding-cloud-storage-security-and-access-controls",
         
-          title: "Cloud Storage Enumeration Techniques",
+          title: "Understanding Cloud Storage Security and Access Controls",
         
-        description: "Methods for discovering exposed cloud storage buckets and securing your data",
+        description: "Best practices for securing cloud storage infrastructure and preventing unauthorized access",
         section: "Posts",
         handler: () => {
           
