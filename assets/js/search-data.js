@@ -183,11 +183,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/cloud-security-fundamentals/";
           
         },
-      },{id: "post-wireless-network-security",
+      },{id: "post-wireless-network-security-fundamentals",
         
-          title: "Wireless Network Security",
+          title: "Wireless Network Security Fundamentals",
         
-        description: "Protecting wireless networks from unauthorized access and attacks",
+        description: "Understanding wireless security challenges and implementing effective protections for Wi-Fi and other wireless technologies",
         section: "Posts",
         handler: () => {
           
