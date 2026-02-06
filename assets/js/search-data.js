@@ -154,7 +154,7 @@ ninja.data = [{
         
           title: "Security Information and Event Management (SIEM)",
         
-        description: "Centralizing security monitoring and analysis with SIEM systems",
+        description: "How SIEM systems centralize security monitoring and enable threat detection at scale",
         section: "Posts",
         handler: () => {
           
