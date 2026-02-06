@@ -15,9 +15,7 @@ schedule:
     description: Free tool demonstrations at Arsenal, multi-day technical trainings start.
     materials:
       - name: Black Hat Website
-        url: https://www.blackhat.com/us-26/
-      - name: Arsenal Schedule
-        url: https://www.blackhat.com/us-26/arsenal.html
+        url: https://www.blackhat.com
 
   - week: 2
     date: Aug 4-5
@@ -25,9 +23,9 @@ schedule:
     description: In-depth technical courses on advanced security topics.
     materials:
       - name: Training Catalog
-        url: https://www.blackhat.com/us-26/training/
+        url: https://www.blackhat.com
       - name: Business Hall Preview
-        url: https://www.blackhat.com/us-26/business-hall.html
+        url: https://www.blackhat.com
 
   - week: 3
     date: Aug 6
@@ -35,9 +33,9 @@ schedule:
     description: Cutting-edge security research presentations, vendor expo opens.
     materials:
       - name: Briefings Schedule
-        url: https://www.blackhat.com/us-26/briefings/
+        url: https://www.blackhat.com
       - name: Speaker List
-        url: https://www.blackhat.com/us-26/briefings/speakers.html
+        url: https://www.blackhat.com
 
   - week: 4
     date: Aug 7
@@ -46,8 +44,6 @@ schedule:
     materials:
       - name: Black Hat YouTube
         url: https://www.youtube.com/blackhat
-      - name: White Papers
-        url: https://www.blackhat.com/presentations/
 ---
 
 ## Conference Overview
