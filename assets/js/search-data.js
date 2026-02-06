@@ -544,6 +544,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-10-msr206-interface-development/";
+            },},{id: "teachings-black-hat-usa-2026",
+          title: 'Black Hat USA 2026',
+          description: "The premier information security conference and training event, bringing together elite security researchers, industry leaders, and government agencies for cutting-edge briefings, hands-on training, and industry networking.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/blackhat-usa-2026/";
             },},{id: "teachings-def-con-34",
           title: 'DEF CON 34',
           description: "The world&#39;s largest and most notable hacker conference. DEF CON 34 brings together security researchers, penetration testers, hardware hackers, and privacy advocates for four days of talks, workshops, villages, contests, and community collaboration.",
