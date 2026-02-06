@@ -399,7 +399,7 @@ Various sponsorship levels are available for companies supporting the defensive 
 - **Village Sponsor**: Dedicated sponsorship of specific village areas
 - **Training Sponsor**: Support for training sessions and materials
 
-For sponsorship information, visit: https://blueteamcon.com/sponsor-us/
+For sponsorship information: sponsors@blueteamcon.com
 
 ## Scholarship Fund
 
