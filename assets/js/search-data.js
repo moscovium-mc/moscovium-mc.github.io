@@ -286,11 +286,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/network-protocol-analysis/";
           
         },
-      },{id: "post-linux-privilege-escalation-techniques",
+      },{id: "post-understanding-linux-privilege-escalation-in-security-assessments",
         
-          title: "Linux Privilege Escalation Techniques",
+          title: "Understanding Linux Privilege Escalation in Security Assessments",
         
-        description: "Methods for gaining elevated access on Linux systems during security assessments",
+        description: "How privilege escalation works on Linux systems and strategies for both testing and hardening",
         section: "Posts",
         handler: () => {
           
