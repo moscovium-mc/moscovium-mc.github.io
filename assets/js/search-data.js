@@ -194,11 +194,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/wireless-network-security/";
           
         },
-      },{id: "post-container-security",
+      },{id: "post-container-security-fundamentals",
         
-          title: "Container Security",
+          title: "Container Security Fundamentals",
         
-        description: "Securing Docker and containerized applications throughout the lifecycle",
+        description: "Securing containerized applications throughout their lifecycle from development to production",
         section: "Posts",
         handler: () => {
           
