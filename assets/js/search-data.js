@@ -385,11 +385,11 @@ ninja.data = [{
             window.location.href = "/blog/2024/network-intrusion-detection-with-arachnids-ng/";
           
         },
-      },{id: "post-setting-up-tor-hidden-services",
+      },{id: "post-understanding-tor-hidden-services-and-onion-routing",
         
-          title: "Setting Up Tor Hidden Services",
+          title: "Understanding Tor Hidden Services and Onion Routing",
         
-        description: "Creating anonymous web services using Tor&#39;s onion routing",
+        description: "How Tor hidden services provide anonymous hosting and the technical architecture behind onion addresses",
         section: "Posts",
         handler: () => {
           
