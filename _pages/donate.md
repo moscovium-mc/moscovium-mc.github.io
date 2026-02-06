@@ -2,7 +2,7 @@
 layout: page
 title: support
 permalink: /donate/
-nav: true
+nav: false
 nav_order: 6
 ---
 
