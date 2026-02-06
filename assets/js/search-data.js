@@ -238,11 +238,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/password-security-and-cracking/";
           
         },
-      },{id: "post-digital-forensics-basics",
+      },{id: "post-digital-forensics-fundamentals",
         
-          title: "Digital Forensics Basics",
+          title: "Digital Forensics Fundamentals",
         
-        description: "Principles and techniques for investigating digital evidence",
+        description: "Understanding the principles, methods, and legal considerations of digital forensics investigations",
         section: "Posts",
         handler: () => {
           
