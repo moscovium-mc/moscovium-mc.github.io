@@ -554,6 +554,11 @@ ninja.data = [{
           description: "The premier information security conference and training event, bringing together elite security researchers, industry leaders, and government agencies for cutting-edge briefings, hands-on training, and industry networking.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/blackhat-usa-2026/";
+            },},{id: "teachings-blue-team-con-2026",
+          title: 'Blue Team Con 2026',
+          description: "Blue Team Con is the only annual in-person conference created for cybersecurity defenders, inclusive of anyone interested in safeguarding organizations. Join more than 850+ community-minded defensive cybersecurity experts for information sharing, relationship and career building events, and defense-focused talks held by some of the industry&#39;s leading cybersecurity minds.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/blue-team-con-2026/";
             },},{id: "teachings-cybersecurity-and-privacy-professionals-conference-2026",
           title: 'Cybersecurity and Privacy Professionals Conference 2026',
           description: "The premier forum for connecting with higher education information security and privacy professionals. This event brings together peers and solution providers to discuss trends, challenges, and current issues in cybersecurity and privacy within the higher education sector.",
