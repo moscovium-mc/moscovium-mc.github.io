@@ -2,7 +2,7 @@
 layout: page
 permalink: /events/
 title: events
-description: Upcoming conferences, workshops, and security events I'll be attending or speaking at.
+description: Upcoming conferences, workshops, and security events.
 nav: true
 nav_order: 6
 calendar: true
