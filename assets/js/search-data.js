@@ -161,11 +161,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/security-information-and-event-management-siem/";
           
         },
-      },{id: "post-red-team-vs-blue-team",
+      },{id: "post-red-team-vs-blue-team-operations",
         
-          title: "Red Team vs Blue Team",
+          title: "Red Team vs Blue Team Operations",
         
-        description: "Understanding offensive and defensive security roles and collaboration",
+        description: "Understanding offensive and defensive security roles and the importance of collaborative purple team exercises",
         section: "Posts",
         handler: () => {
           
