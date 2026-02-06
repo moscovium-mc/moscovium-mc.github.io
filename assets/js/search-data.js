@@ -227,11 +227,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/incident-response-methodology/";
           
         },
-      },{id: "post-password-security-and-cracking",
+      },{id: "post-password-security-and-authentication-challenges",
         
-          title: "Password Security and Cracking",
+          title: "Password Security and Authentication Challenges",
         
-        description: "Understanding password vulnerabilities and protection strategies",
+        description: "Understanding how passwords are attacked, how they should be protected, and what alternatives are emerging",
         section: "Posts",
         handler: () => {
           
