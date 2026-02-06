@@ -544,11 +544,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-10-msr206-interface-development/";
-            },},{id: "teachings-black-hat-usa-2026",
-          title: 'Black Hat USA 2026',
-          description: "Premier information security conference and training. Black Hat brings together elite security researchers, corporate executives, government agencies, and security vendors for cutting-edge briefings and in-depth technical training.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/blackhat_usa_2026/";
             },},{id: "teachings-",
           title: '',
           description: "",
