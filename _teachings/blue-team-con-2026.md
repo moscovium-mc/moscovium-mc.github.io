@@ -25,9 +25,9 @@ schedule:
     description: Keynote presentations, defense-focused talks across multiple tracks, village activities, and community networking events.
     materials:
       - name: Our Mission
-        url: https://blueteamcon.com/about/
+        url: https://blueteamcon.com/our-mission/
       - name: BTC History
-        url: https://blueteamcon.com/btc-history/
+        url: https://blueteamcon.com/
 
   - week: 3
     date: Sep 12
@@ -35,9 +35,9 @@ schedule:
     description: Advanced defensive sessions, hands-on workshops, village deep-dives, and specialized tracks for blue team professionals.
     materials:
       - name: BTC Online
-        url: https://blueteamcon.com/btc-online/
+        url: https://blueteamcon.com/blue-team-con-online/
       - name: Sponsor Information
-        url: https://blueteamcon.com/sponsor-us/
+        url: sponsors@blueteamcon.com
 
   - week: 4
     date: Sep 13
@@ -45,9 +45,9 @@ schedule:
     description: Final talks, closing sessions, last village activities, awards ceremony, and community celebration events.
     materials:
       - name: Contact Us
-        url: https://blueteamcon.com/contact/
+        url: https://blueteamcon.com/contact-blue-team-con/
       - name: Scholarship Fund
-        url: https://blueteamcon.com/donate/
+        url: https://blueteamcon.com/scholarship/
 ---
 
 ## Event Overview
@@ -418,7 +418,7 @@ Blue Team Con maintains a Scholarship Fund to support attendance for those who m
 - Meal allowances during conference
 
 ### How to Apply
-Applications typically open in Spring 2026. Visit the website for details: https://blueteamcon.com/donate/
+Applications typically open in Spring 2026. Visit the website for details: https://blueteamcon.com
 
 ### Donate to the Scholarship Fund
 Support the next generation of defenders by contributing to the Scholarship Fund. All donations are tax-deductible and directly support attendance for deserving individuals.
@@ -435,19 +435,19 @@ Support the next generation of defenders by contributing to the Scholarship Fund
 ## Official Channels
 
 - **Website**: https://blueteamcon.com/
-- **Email Sign-up**: https://blueteamcon.com/#email-signup
-- **Sponsor Information**: https://blueteamcon.com/sponsor-us/
-- **Contact**: https://blueteamcon.com/contact/
-- **Mission Statement**: https://blueteamcon.com/about/
-- **BTC History**: https://blueteamcon.com/btc-history/
+- **Email Sign-up**: https://blueteamcon.com/subscribe
+- **Sponsor Information**: sponsors@blueteamcon.com
+- **Contact**: https://blueteamcon.com/contact-blue-team-con/
+- **Mission Statement**: https://blueteamcon.com/our-mission/
+- **BTC History**: https://blueteamcon.com/
 
 ## Social Media
 
 Stay connected with Blue Team Con updates:
 
-- **Twitter**: @BlueTeamCon (if available)
-- **LinkedIn**: Blue Team Con
-- **Email Newsletter**: Sign up on the website for updates
+- **Twitter**: https://twitter.com/BlueTeamCon
+- **LinkedIn**: https://www.linkedin.com/company/blueteamcon/
+- **Email Newsletter**: https://blueteamcon.com/subscribe
 
 Follow the hashtag **#BlueTeamCon2026** for real-time updates during the conference.
 
@@ -507,16 +507,6 @@ Blue Team Con relies on volunteers to help make the conference successful:
 - **Volunteer Recognition**: Acknowledgment in conference materials
 
 Volunteer applications typically open in Summer 2026. Watch the website for details.
-
-## Contact Information
-
-For questions about the conference:
-- **General Inquiries**: info@blueteamcon.com
-- **Registration Support**: registration@blueteamcon.com
-- **Speaking Opportunities**: content@blueteamcon.com
-- **Sponsorship**: sponsors@blueteamcon.com
-- **Volunteer Opportunities**: volunteers@blueteamcon.com
-- **Scholarship Fund**: scholarships@blueteamcon.com
 
 ## Health & Safety
 
