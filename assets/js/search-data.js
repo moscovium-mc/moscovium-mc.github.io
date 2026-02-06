@@ -549,6 +549,11 @@ ninja.data = [{
           description: "Premier information security conference and training. Black Hat brings together elite security researchers, corporate executives, government agencies, and security vendors for cutting-edge briefings and in-depth technical training.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/blackhat_usa_2026/";
+            },},{id: "teachings-",
+          title: '',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/bsides_lv_2026/";
             },},{id: "teachings-def-con-34",
           title: 'DEF CON 34',
           description: "The world&#39;s largest and most infamous hacker conference. Four days of hacking, learning, and chaos in Las Vegas featuring cutting-edge security research, hands-on workshops, villages, contests, and networking.",
