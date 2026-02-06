@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Support
+title: donate
 permalink: /donate/
 nav: false
 nav_order: 6
