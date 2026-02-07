@@ -13,7 +13,7 @@ finished: 2024-10-22
 released: 2002
 stars: 5
 goodreads_review: 
-status: To Read
+status: Finished
 ---
 
 A compelling exploration of social engineering and the human element in security breaches. Kevin Mitnick, once the FBI's most wanted hacker, reveals how attackers exploit human psychology rather than technical vulnerabilities. Through real-world case studies and scenarios, the book demonstrates how easily people can be manipulated into divulging sensitive information.
