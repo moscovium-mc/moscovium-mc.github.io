@@ -463,6 +463,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/kingpin/";
+            },},{id: "books-the-hacker-playbook-3",
+          title: 'The Hacker Playbook 3',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_hacker_playbook_3/";
             },},{id: "books-1984",
           title: '1984',
           description: "",
