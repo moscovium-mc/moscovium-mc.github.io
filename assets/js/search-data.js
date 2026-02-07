@@ -463,11 +463,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/kingpin/";
-            },},{id: "books-the-art-of-deception",
-          title: 'The Art of Deception',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_art_of_deception/";
             },},{id: "books-1984",
           title: '1984',
           description: "",
