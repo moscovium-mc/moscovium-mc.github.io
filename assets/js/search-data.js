@@ -59,7 +59,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/building-swiperx-day-msr206-toolkit/";
+            window.location.href = "/blog/2026/building-swiperx-msr206-toolkit/";
           
         },
       },{id: "post-understanding-zero-day-vulnerabilities-and-their-security-impact",
