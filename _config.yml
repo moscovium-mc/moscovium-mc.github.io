@@ -260,7 +260,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["threat-intelligence", "cryptography", "artificial-intelligence"] # these tags will be displayed on the front page of your blog
-display_categories: ["security", "programming", "penetration-testing"] # these categories will be displayed on the front page of your blog
+display_categories: ["security", "programming", "web-security"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
