@@ -91,7 +91,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: moscovium-mc's Blog # blog_name will be displayed in your blog page
-blog_description: Security, programming, threat analysis, and cybercrime
+blog_description: Insights
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
