@@ -523,6 +523,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_code_book/";
+            },},{id: "books-the-art-of-deception",
+          title: 'The Art of Deception',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_art_of_deception/";
             },},{id: "books-we",
           title: 'We',
           description: "",
