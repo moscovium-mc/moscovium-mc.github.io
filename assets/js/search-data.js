@@ -51,18 +51,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/donate/";
               },
-            },{id: "post-building-swiperx-a-complete-msr206-toolkit",
-        
-          title: "Building SwiperX - A Complete MSR206 Toolkit",
-        
-        description: "The development journey of creating a comprehensive magnetic stripe reader/writer interface software",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/building-swiperx-msr206-toolkit/";
-          
-        },
-      },{id: "post-understanding-zero-day-vulnerabilities-and-their-security-impact",
+            },{id: "post-understanding-zero-day-vulnerabilities-and-their-security-impact",
         
           title: "Understanding Zero-Day Vulnerabilities and Their Security Impact",
         
