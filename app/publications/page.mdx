@@ -1,0 +1,22 @@
+export const metadata = {
+  title: 'Publications',
+  description: 'Publications and security research.',
+  alternates: {
+    canonical: '/publications',
+  },
+};
+
+# Publications
+
+<br />
+
+## CVE-2024-9680: Use-After-Free in Firefox Animation Timelines Leading to Remote Code Execution
+
+*moscovium-mc*, November 2025
+
+Comprehensive analysis of CVE-2024-9680, a critical use-after-free vulnerability in Firefox's animation timeline management allowing remote code execution. Patched in Firefox 131.0.2, ESR 128.3.1, and 115.16.1. Actively exploited in the wild targeting Tor Browser users.
+
+The repository includes original exploit code from wild attacks, a safety-hardened educational demonstration, and a stage-by-stage exploitation breakdown covering initialization (Web Workers shellcode delivery), DOM crafting (SVG animation structures), heap spraying, and UAF trigger through animation attribute manipulation.
+
+- **Code:** [github.com/moscovium-mc/Tor-0day-JavaScript-Exploit](https://github.com/moscovium-mc/Tor-0day-JavaScript-Exploit)
+- **Reference:** [NVD - CVE-2024-9680](https://nvd.nist.gov/vuln/detail/CVE-2024-9680)

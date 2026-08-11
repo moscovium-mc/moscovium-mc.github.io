@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moscovium-mc.github.io/sitemap.xml
