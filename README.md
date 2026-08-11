@@ -1,35 +1,28 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fnext-mdx-blog)
+# moscovium-mc.github.io
 
-# next-mdx-blog
+My GitHub page, security blog and insights — built with [Next.js](https://nextjs.org), [MDX](https://mdxjs.com), and [Tailwind CSS](https://tailwindcss.com), deployed to [GitHub Pages](https://pages.github.com).
 
-This is a blog template built with:
+## Pages
 
-- **Framework**: [Next.js](https://nextjs.org)
-- **Deployment**: [Vercel](https://vercel.com)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com)
-- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
-- **Database** (Optional): [Postgres](https://vercel.com/postgres)
+- **Home** — bio, latest posts, and links
+- **Blog** (`/n`) — security research and write-ups
+- **Books** — bookshelf and reviews
+- **Publications** — security research publications
+- **Repositories** — open-source projects
+- **Events** — conferences and security events
+- **Donate** — support the work
 
 ## Running Locally
 
-This application requires Node.js v18.17+.
+Requires Node.js v18.17+.
 
 ```bash
-git clone https://github.com/leerob/next-mdx-blog.git
-cd next-mdx-blog
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
-## Database (Optional)
+Open [http://localhost:3000](http://localhost:3000).
 
-Create a `.env.local` file with your `POSTGRES_URL` environment variable to store redirects.
+## Deploying
 
-```sql
-CREATE TABLE redirects (
-  id SERIAL PRIMARY KEY,
-  source VARCHAR(255) NOT NULL,
-  destination VARCHAR(255) NOT NULL,
-  permanent BOOLEAN NOT NULL
-);
-```
+This site is statically exported (`output: 'export'`) and deployed to GitHub Pages via the [GitHub Actions workflow](.github/workflows/deploy.yml) on every push to `main`.
